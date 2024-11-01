@@ -7,7 +7,7 @@ window.addEventListener('keydown', (e) => {
     <tr>
       <th>Key</th>
       <th>Keycode</th> 
-      <th>Code</th>
+      <th>Key Name</th>
     </tr>
     <tr style="color: #00fff1;">
       <td>${e.key === ' ' ? 'Space' : e.key}</td>
